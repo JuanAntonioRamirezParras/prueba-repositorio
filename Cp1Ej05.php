@@ -13,20 +13,14 @@ and open the template in the editor.
         <?php
         $x = 144;
         $y = 999;        
-        ?>
-        
-        Suma______________
-        <?php echo $x + $y, "<br>";?>
-        
-        Resta______________
-        <?php echo $x - $y, "<br>";?>
-        
-        Multiplicación_____
-        <?php echo $x * $y, "<br>";?>
-        
-        División___________
-        <?php echo $x / $y, "<br>";?>
         
         
+        echo "Suma ", $x + $y, "<br>";
+        
+        echo "Resta ", $x - $y, "<br>";
+        
+        echo "Multiplicación ", $x * $y, "<br>";
+        
+        echo "División ", $x / $y, "<br>";?>
     </body>
 </html>
